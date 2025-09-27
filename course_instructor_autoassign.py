@@ -333,9 +333,9 @@ if __name__ == '__main__':
     # --- ตั้งค่าพารามิเตอร์ ---
     NUM_COURSES = 120
     NUM_INSTRUCTORS = 40
-    POPULATION_SIZE = 100
+    POPULATION_SIZE = 200
     NUM_GENERATIONS = 200
-    ELITE_SIZE = 3
+    ELITE_SIZE = 1
     MUTATION_RATE = 0.5 # อัตราส่วนของ change mutation เทียบกับ swap mutation
     CHANGE_MUTATION_RATE = 0.40 # 40% change mutation
     SWAP_MUTATION_RATE = 0.40 # 40% swap mutation
